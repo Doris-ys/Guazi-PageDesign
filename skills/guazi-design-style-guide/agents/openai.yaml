@@ -1,0 +1,11 @@
+interface:
+  display_name: "Guazi Style Guide"
+  short_description: "Use Guazi Design tokens and components from Figma"
+  default_prompt: "Use $guazi-design-style-guide to implement a page with the Guazi Design Figma library."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "figma"
+      description: "Figma MCP server for reading the Guazi Design library"
+policy:
+  allow_implicit_invocation: true
