@@ -1,6 +1,6 @@
 # Guazi Page Design Skills
 
-面向 Codex 的 Guazi 页面生成技能包，帮助团队把「需求描述 / 原型图 / 原型 HTML」稳定转成符合瓜子设计规范的页面方案，并支持继续同步到 Figma。
+一套用于 Guazi 页面生成的技能包，主包面向 Codex，同时包含 WorkBuddy 兼容版，帮助团队把「需求描述 / 原型图 / 原型 HTML」稳定转成符合瓜子设计规范的页面方案，并支持继续同步到 Figma。
 
 ## 它能做什么
 
@@ -48,6 +48,7 @@ guazi-codex-skills/
 ├── CHANGELOG.md
 ├── GIT_UPLOAD_GUIDE.md
 ├── README.md
+├── workbuddy/
 └── skills/
     ├── guazi-design-style-guide/
     │   ├── SKILL.md
@@ -70,6 +71,22 @@ cp -R skills/guazi-design-style-guide ~/.codex/skills/
 ```
 
 复制完成后，重新打开 Codex 或开启一个新会话。
+
+## WorkBuddy 版本
+
+仓库里额外提供了一套 WorkBuddy 兼容版目录：
+
+```text
+workbuddy/
+├── README.md
+├── WORKBUDDY_INSTALL.md
+└── skills/
+```
+
+如果你要给 WorkBuddy 使用，请看：
+
+- `workbuddy/README.md`
+- `workbuddy/WORKBUDDY_INSTALL.md`
 
 ## 使用示例
 
