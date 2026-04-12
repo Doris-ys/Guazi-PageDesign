@@ -1,6 +1,6 @@
 # Guazi Page Design Skills
 
-一套用于 Guazi 页面生成的技能包，主包面向 Codex，同时包含 WorkBuddy 兼容版，帮助团队把「需求描述 / 原型图 / 原型 HTML」稳定转成符合瓜子设计规范的页面方案，并支持继续同步到 Figma。
+一套用于 Guazi 页面生成的技能包，主包面向 Codex，同时包含 WorkBuddy 和 OpenClaw 兼容版，帮助团队把「需求描述 / 原型图 / 原型 HTML」稳定转成符合瓜子设计规范的页面方案，并支持继续同步到 Figma。
 
 ## 它能做什么
 
@@ -47,6 +47,7 @@
 guazi-codex-skills/
 ├── CHANGELOG.md
 ├── GIT_UPLOAD_GUIDE.md
+├── openclaw/
 ├── README.md
 ├── workbuddy/
 └── skills/
@@ -87,6 +88,22 @@ workbuddy/
 
 - `workbuddy/README.md`
 - `workbuddy/WORKBUDDY_INSTALL.md`
+
+## OpenClaw 版本
+
+仓库里额外提供了一套 OpenClaw 兼容版目录：
+
+```text
+openclaw/
+├── README.md
+├── OPENCLAW_INSTALL.md
+└── skills/
+```
+
+如果你要给 OpenClaw 使用，请看：
+
+- `openclaw/README.md`
+- `openclaw/OPENCLAW_INSTALL.md`
 
 ## 使用示例
 
