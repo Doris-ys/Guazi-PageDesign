@@ -1,6 +1,6 @@
 ---
 name: guazi-design-style-guide
-description: Use when the target UI should follow the Guazi Design Figma library and the output must stay aligned with Guazi color, typography, radius, spacing, navbar, card, tag, form, and page-shell rules. Trigger on requests like "按瓜子规范实现", "按瓜子组件库出页面", "给我这个页面的设计规范", or when another skill needs Guazi rules as its visual authority.
+description: "Use when the target UI should follow the Guazi Design Figma library and the output must stay aligned with Guazi color, typography, radius, spacing, navbar, card, tag, form, and page-shell rules. Trigger on requests like '按瓜子规范实现', '按瓜子组件库出页面', '给我这个页面的设计规范', or when another skill needs Guazi rules as its visual authority."
 metadata:
   openclaw:
     user-invocable: true

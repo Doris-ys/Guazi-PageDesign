@@ -1,6 +1,6 @@
 ---
 name: guazi-design-style-guide
-description: Use when implementing UI that should match the `Guazi Design` Figma library, when the user shares the file key `IlDoKwM2KnSOdvFyFskkP6`, asks for Guazi-style pages/components, or wants a Figma-to-code workflow constrained by Guazi tokens, radii, typography, shadows, and published component names.
+description: "Use when implementing UI that should match the `Guazi Design` Figma library, when the user shares the file key `IlDoKwM2KnSOdvFyFskkP6`, asks for Guazi-style pages/components, or wants a Figma-to-code workflow constrained by Guazi tokens, radii, typography, shadows, and published component names."
 ---
 
 # Guazi Design Style Guide

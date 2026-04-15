@@ -1,6 +1,6 @@
 ---
 name: guazi-page-design
-description: Use when the user wants a reusable Guazi page-generation workflow in WorkBuddy: accept a requirement document, prototype image or Figma reference, or prototype HTML; identify the dominant page type automatically; apply Guazi global rules, component rules, and page-pattern rules; then generate a frontend page or structured page plan. Trigger on requests like "根据需求生成页面", "根据原型图生成页面", "根据 HTML 原型生成页面", "自动识别页面类型", "按规范生成列表页/详情页/表单页", or "按瓜子规范出页面".
+description: "Use when the user wants a reusable Guazi page-generation workflow in WorkBuddy: accept a requirement document, prototype image or Figma reference, or prototype HTML; identify the dominant page type automatically; apply Guazi global rules, component rules, and page-pattern rules; then generate a frontend page or structured page plan. Trigger on requests like '根据需求生成页面', '根据原型图生成页面', '根据 HTML 原型生成页面', '自动识别页面类型', '按规范生成列表页/详情页/表单页', or '按瓜子规范出页面'."
 ---
 
 # Guazi Page Design
@@ -47,6 +47,7 @@ If the environment also supports Figma or design-system write-back, include that
 
 - Use `references/guazi-input-source-routing.md`
 - Classify the source as requirement document, prototype image/Figma, prototype HTML, or mixed input
+- If the input is a prototype image or screenshot, first analyze its structure (page shell, section order, card hierarchy, action hierarchy), then generate with Guazi rules instead of copying raw visual styles
 - Resolve conflicts in this order:
   - business rules -> requirement document
   - layout structure -> prototype image or prototype HTML
@@ -91,6 +92,7 @@ If the environment also supports Figma or design-system write-back, include that
 
 - Do not invent the page scaffold before choosing the page type
 - Do not let prototype styling override Guazi visual rules
+- For prototype-image inputs, use the prototype as structure source only; enforce Guazi design rules for style and component choice
 - Treat prototype HTML as structural input, not the final style source of truth
 - Prefer H5 navbar patterns for responsive web pages
 - Use component rules before inventing custom widgets
