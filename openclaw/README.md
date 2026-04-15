@@ -5,7 +5,7 @@
 ## 包含内容
 
 - `skills/guazi-design-style-guide/`
-- `skills/guazi-page-delivery/`
+- `skills/guazi-page-design/`
 
 ## 适合什么场景
 

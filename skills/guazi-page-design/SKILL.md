@@ -1,9 +1,9 @@
 ---
-name: guazi-page-delivery
+name: guazi-page-design
 description: Use when the user wants a reusable end-to-end Guazi page-generation workflow: accept a requirement document, prototype image/Figma, or prototype HTML -> identify the page type automatically -> apply global design rules, component-usage rules, and page-pattern rules -> implement the frontend page -> send the page back to Figma. Trigger on requests like "根据需求生成页面", "根据原型图生成页面", "根据 HTML 原型生成页面", "自动识别页面类型", "按规范生成列表页/详情页/表单页", "把页面回传到 Figma", or when the page must be delivered both as code and as a 375px Figma screen using Guazi library components.
 ---
 
-# Guazi Page Delivery
+# Guazi Page Design
 
 ## Overview
 
@@ -33,6 +33,7 @@ Use the following references as a routing tree:
 - `references/guazi-upload-component.md`: apply detailed Upload selection and material-upload rules
 - `references/guazi-tabs-component.md`: apply detailed Tabs selection and top-switching rules
 - `references/guazi-search-component.md`: apply detailed Search selection and search-row rules
+- `references/guazi-button-component.md`: apply detailed Button sizing and action-hierarchy rules
 - `references/guazi-tag-component.md`: apply detailed Tag selection and status-chip rules
 - `references/guazi-dialog-component.md`: apply detailed Dialog selection and popup rules
 - `references/guazi-toast-component.md`: apply detailed Toast selection and lightweight feedback rules
@@ -105,6 +106,7 @@ Typical output of this step:
 - When the page has image or file upload, also apply `references/guazi-upload-component.md`
 - When the page has category switching or section switching, also apply `references/guazi-tabs-component.md`
 - When the page has keyword search or searchable filtering, also apply `references/guazi-search-component.md`
+- When the page has explicit CTAs or action rows, also apply `references/guazi-button-component.md`
 - When the page has status chips, metadata tags, or selectable filter chips, also apply `references/guazi-tag-component.md`
 - When the page has confirm popups, feedback popups, input popups, or image-led overlays, also apply `references/guazi-dialog-component.md`
 - When the page has lightweight success/error/warning/loading feedback, also apply `references/guazi-toast-component.md`
@@ -203,7 +205,7 @@ Before finishing, confirm all of the following:
 
 ## Resources
 
-- `references/guazi-page-delivery-reference.md`: a compact execution checklist for requirement parsing, code delivery, and Figma componentized sync.
+- `references/guazi-page-design-reference.md`: a compact execution checklist for requirement parsing, code delivery, and Figma componentized sync.
 - `references/guazi-input-source-routing.md`: input-source identification and conflict-resolution rules for requirement docs, prototype images, and prototype HTML files.
 - `references/guazi-page-type-routing.md`: page-type identification heuristics and routing rules.
 - `references/guazi-component-usage.md`: component selection, priority, and usage guidance.
@@ -212,6 +214,7 @@ Before finishing, confirm all of the following:
 - `references/guazi-upload-component.md`: detailed upload variants and material-upload usage rules.
 - `references/guazi-tabs-component.md`: detailed tabs variants and page-switching usage rules.
 - `references/guazi-search-component.md`: detailed search variants and search-row usage rules.
+- `references/guazi-button-component.md`: detailed button sizes, list-card action rules, and CTA hierarchy rules.
 - `references/guazi-tag-component.md`: detailed tag variants and status-chip usage rules.
 - `references/guazi-dialog-component.md`: detailed dialog variants and popup usage rules.
 - `references/guazi-toast-component.md`: detailed toast variants and lightweight feedback usage rules.

@@ -1,7 +1,7 @@
 interface:
-  display_name: "Guazi Page Delivery"
+  display_name: "Guazi Page Design"
   short_description: "Turn requirement docs, prototypes, or HTML into Guazi pages and sync to Figma"
-  default_prompt: "Use $guazi-page-delivery to recognize whether my input is a requirement doc, prototype, or prototype HTML, route it to the right Guazi page pattern, generate the frontend page, and sync a 375px componentized screen back to Figma."
+  default_prompt: "Use $guazi-page-design to recognize whether my input is a requirement doc, prototype, or prototype HTML, route it to the right Guazi page pattern, generate the frontend page, and sync a 375px componentized screen back to Figma."
 dependencies:
   tools:
     - type: "mcp"

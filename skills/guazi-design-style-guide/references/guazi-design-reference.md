@@ -160,6 +160,49 @@ The following published components were discoverable through Figma MCP search:
 
 These were inspected directly from the published sets:
 
+### `Button 按钮`
+
+Observed component axes:
+
+- `variant`: `base | outline | text | ghost`
+- `theme`: `primary | light | default | text`
+- `size`: `large | medium | small | extraSmall`
+- `shape`: `rectangle | square`
+- `prefixIcon`: `true | false`
+- `suffixIcon`: `true | false`
+- `singleIcon`: `true | false`
+- `press`: `true | false`
+- `disabled`: `true | false`
+
+Observed practical rules:
+
+- control radius: `4px`
+- `large`:
+  - height: `44px`
+  - text: `16 / 22`, semibold
+  - icon: `22px`
+- `medium`:
+  - height: `40px`
+  - text: `14 / 20`, semibold
+  - icon: `20px`
+- `small`:
+  - height: `32px`
+  - text: `14 / 20`, semibold
+  - icon: `18px`
+- `extraSmall`:
+  - height: `28px`
+  - text: `12 / 18`, semibold
+  - icon: `16px`
+
+Usage guidance:
+
+- use `large` for form submit and page-primary CTA
+- use `medium` for ordinary page and popup actions
+- use `small` for compact toolbars
+- use `extraSmall` for dense list-card actions
+- use square shape for icon-only buttons
+- keep the primary action on the far right in horizontal button groups
+
 ### `NavBar 导航栏 - mini program小程序`
 
 Variant axes:

@@ -8,7 +8,7 @@
 
 - 初始化分享仓库 `guazi-codex-skills`
 - 收录 `guazi-design-style-guide` 基础设计规范技能
-- 收录 `guazi-page-delivery` 页面交付流程技能
+- 收录 `guazi-page-design` 页面交付流程技能
 - 补充页面生成输入路由规则：
   - 需求文档
   - Figma 原型

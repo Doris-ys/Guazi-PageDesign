@@ -48,8 +48,13 @@ Typical user words:
 - 详情
 - 订单详情
 - 记录详情
+- 客户详情
+- 线索详情
+- 商机详情
 - 状态流转
 - 处理进度
+- 待办事项
+- 沟通记录
 
 ### Form page
 
@@ -135,6 +140,7 @@ Apply in this order:
 - If the page has both detail and form sections, use the page's final goal to decide:
   - read and decide -> `detail page`
   - fill and submit -> `form page`
+- If the page shows a single customer or merchant with tabs such as `待办事项 / 沟通记录` plus bottom follow-up actions, route to `detail page`, not `list page`.
 
 ## 6. Handoff Sentence Pattern
 

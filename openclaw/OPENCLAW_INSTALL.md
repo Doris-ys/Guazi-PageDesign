@@ -7,7 +7,7 @@
 ```bash
 mkdir -p ~/.openclaw/skills
 cp -R openclaw/skills/guazi-design-style-guide ~/.openclaw/skills/
-cp -R openclaw/skills/guazi-page-delivery ~/.openclaw/skills/
+cp -R openclaw/skills/guazi-page-design ~/.openclaw/skills/
 ```
 
 或者安装到当前工作区目录：
@@ -15,7 +15,7 @@ cp -R openclaw/skills/guazi-page-delivery ~/.openclaw/skills/
 ```bash
 mkdir -p ./skills
 cp -R openclaw/skills/guazi-design-style-guide ./skills/
-cp -R openclaw/skills/guazi-page-delivery ./skills/
+cp -R openclaw/skills/guazi-page-design ./skills/
 ```
 
 ## 2. 重新打开 OpenClaw
@@ -25,11 +25,11 @@ cp -R openclaw/skills/guazi-page-delivery ./skills/
 ## 3. 使用示例
 
 ```text
-/guazi-page-delivery 根据需求文档生成一个详情页
+/guazi-page-design 根据需求文档生成一个详情页
 ```
 
 ```text
-/guazi-page-delivery 根据这个原型 HTML 生成页面
+/guazi-page-design 根据这个原型 HTML 生成页面
 ```
 
 ```text

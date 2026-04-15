@@ -62,7 +62,13 @@ Rules:
 - secondary CTA: outline or low-emphasis button
 - tertiary action: text action only when hierarchy requires it
 - keep action count small; prefer one primary CTA per area
-- use compact sizes inside list cards and medium/large sizes in form or page footers
+- use compact sizes inside list cards and larger sizes in form or page footers
+- use `extraSmall` size for dense list-card actions: `28px` height with `12px` text
+- use `small` size for compact toolbar or card actions: `32px` height with `14px` text
+- use `medium` size for ordinary page actions: `40px` height with `14px` text
+- use `large` size for page-primary CTA: `44px` height with `16px` text
+
+For detailed size and ordering rules, also read `guazi-button-component.md`.
 
 ### Action hierarchy
 

@@ -57,7 +57,7 @@ git remote add origin https://github.com/<your-name>/guazi-codex-skills.git
 
 - `README.md`
 - `GIT_UPLOAD_GUIDE.md`
-- `skills/guazi-page-delivery/`
+- `skills/guazi-page-design/`
 - `skills/guazi-design-style-guide/`
 
 ## 分享给别人时怎么说
@@ -70,7 +70,7 @@ git remote add origin https://github.com/<your-name>/guazi-codex-skills.git
 4. 在会话里直接使用：
 
 ```text
-使用 $guazi-page-delivery 根据需求文档生成页面
+使用 $guazi-page-design 根据需求文档生成页面
 ```
 
 ## 更新技能时的维护方式

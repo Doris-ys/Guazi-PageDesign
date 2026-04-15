@@ -1,11 +1,17 @@
 ---
-name: guazi-page-delivery
-description: Use when the user wants a reusable Guazi page-generation workflow in WorkBuddy: accept a requirement document, prototype image or Figma reference, or prototype HTML; identify the dominant page type automatically; apply Guazi global rules, component rules, and page-pattern rules; then generate a frontend page or structured page plan. Trigger on requests like "根据需求生成页面", "根据原型图生成页面", "根据 HTML 原型生成页面", "自动识别页面类型", "按规范生成列表页/详情页/表单页", or "按瓜子规范出页面".
+name: guazi-page-design
+description: Use when the user wants a reusable Guazi page-generation workflow in OpenClaw: accept a requirement document, prototype image or Figma reference, or prototype HTML; identify the dominant page type automatically; apply Guazi global rules, component rules, and page-pattern rules; then generate a frontend page or structured page plan. Trigger on requests like "根据需求生成页面", "根据原型图生成页面", "根据 HTML 原型生成页面", "自动识别页面类型", "按规范生成列表页/详情页/表单页", or "按瓜子规范出页面".
+metadata:
+  openclaw:
+    user-invocable: true
+    slash-command: guazi-page-design
+    emoji: "🧩"
+    homepage: "https://github.com/Doris-ys/Guazi-PageDesign"
 ---
 
-# Guazi Page Delivery
+# Guazi Page Design
 
-Use this skill for Guazi-style page delivery inside WorkBuddy.
+Use this skill for Guazi-style page delivery inside OpenClaw.
 
 Pair it with the sibling skill:
 
@@ -21,6 +27,7 @@ Use the routing references below to determine input source, page type, component
 - `references/guazi-upload-component.md`
 - `references/guazi-tabs-component.md`
 - `references/guazi-search-component.md`
+- `references/guazi-button-component.md`
 - `references/guazi-tag-component.md`
 - `references/guazi-dialog-component.md`
 - `references/guazi-toast-component.md`
@@ -32,7 +39,7 @@ Use the routing references below to determine input source, page type, component
 
 ## Required outcome
 
-Every run should try to produce one of these outcomes, depending on the tools available in the current WorkBuddy environment:
+Every run should try to produce one of these outcomes, depending on the tools available in the current OpenClaw environment:
 
 1. A ready-to-implement frontend page
 2. A componentized page specification
@@ -65,6 +72,7 @@ If the environment also supports Figma or design-system write-back, include that
 - Always apply `$guazi-design-style-guide`
 - Always apply `references/guazi-component-usage.md`
 - Add component-specific references only when the page actually uses them
+- Add `references/guazi-button-component.md` when the page has explicit CTA rows or list-card actions
 - Add exactly one dominant page-pattern reference:
   - list -> `references/guazi-list-page-layout.md`
   - detail -> `references/guazi-detail-page-layout.md`
@@ -80,9 +88,9 @@ If the environment also supports Figma or design-system write-back, include that
 
 ### 5. Deliver according to environment capability
 
-- If WorkBuddy can edit code in the current workspace, generate or update the page code
-- If WorkBuddy is being used for planning only, output a structured implementation plan
-- If WorkBuddy has design integration available, optionally produce a Figma sync or handoff step
+- If OpenClaw can edit code in the current workspace, generate or update the page code
+- If OpenClaw is being used for planning only, output a structured implementation plan
+- If OpenClaw has design integration available, optionally produce a Figma sync or handoff step
 - If direct Figma sync is unavailable, output a Figma-ready handoff checklist instead of blocking
 
 ## Practical rules
@@ -103,11 +111,11 @@ Before finishing, confirm:
 - Guazi visual rules were applied
 - component rules were applied
 - page sections and states are explicit
-- the output format matches the current WorkBuddy environment
+- the output format matches the current OpenClaw environment
 
 ## Resources
 
-- `references/guazi-page-delivery-reference.md`
+- `references/guazi-page-design-reference.md`
 - `references/guazi-input-source-routing.md`
 - `references/guazi-page-type-routing.md`
 - `references/guazi-component-usage.md`
@@ -116,6 +124,7 @@ Before finishing, confirm:
 - `references/guazi-upload-component.md`
 - `references/guazi-tabs-component.md`
 - `references/guazi-search-component.md`
+- `references/guazi-button-component.md`
 - `references/guazi-tag-component.md`
 - `references/guazi-dialog-component.md`
 - `references/guazi-toast-component.md`

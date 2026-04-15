@@ -1,8 +1,8 @@
-# Guazi Page Delivery Reference
+# Guazi Page Design Reference
 
 ## 1. Trigger Patterns
 
-Use `$guazi-page-delivery` when the user wants any end-to-end flow like:
+Use `$guazi-page-design` when the user wants any end-to-end flow like:
 
 - "根据需求生成一个页面"
 - "根据原型图生成一个页面"
@@ -181,6 +181,7 @@ When the page is a detail page, also consult `references/guazi-standard-detail-e
 
 - proof / statement / certificate detail
 - operational tool detail
+- CRM / relationship detail
 - single-CTA detail vs multi-action tool detail
 
 If the page is a form page, also use `references/guazi-form-page-layout.md` as the layout authority for:

@@ -7,7 +7,7 @@
 ```bash
 mkdir -p ~/.workbuddy/skills
 cp -R workbuddy/skills/guazi-design-style-guide ~/.workbuddy/skills/
-cp -R workbuddy/skills/guazi-page-delivery ~/.workbuddy/skills/
+cp -R workbuddy/skills/guazi-page-design ~/.workbuddy/skills/
 ```
 
 ## 2. 重新打开 WorkBuddy
@@ -17,11 +17,11 @@ cp -R workbuddy/skills/guazi-page-delivery ~/.workbuddy/skills/
 ## 3. 使用示例
 
 ```text
-使用 $guazi-page-delivery 根据需求文档生成一个详情页
+使用 $guazi-page-design 根据需求文档生成一个详情页
 ```
 
 ```text
-使用 $guazi-page-delivery 根据这个原型 HTML 生成页面
+使用 $guazi-page-design 根据这个原型 HTML 生成页面
 ```
 
 ```text

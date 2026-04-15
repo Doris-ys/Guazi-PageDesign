@@ -27,7 +27,7 @@
 - 组件该怎么选、怎么用、什么场景下不要用
 - 页面布局、间距、圆角、标题栏、卡片、标签等该怎么统一
 
-### `guazi-page-delivery`
+### `guazi-page-design`
 
 页面交付流程层，负责回答这些问题：
 
@@ -39,7 +39,7 @@
 可以把两者理解成：
 
 - `guazi-design-style-guide` = 规范底座
-- `guazi-page-delivery` = 交付工作流
+- `guazi-page-design` = 交付工作流
 
 ## 仓库结构
 
@@ -55,7 +55,7 @@ guazi-codex-skills/
     │   ├── SKILL.md
     │   ├── agents/
     │   └── references/
-    └── guazi-page-delivery/
+    └── guazi-page-design/
         ├── SKILL.md
         ├── agents/
         └── references/
@@ -67,7 +67,7 @@ guazi-codex-skills/
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R skills/guazi-page-delivery ~/.codex/skills/
+cp -R skills/guazi-page-design ~/.codex/skills/
 cp -R skills/guazi-design-style-guide ~/.codex/skills/
 ```
 
@@ -110,19 +110,19 @@ openclaw/
 ### 1. 根据需求文档生成页面
 
 ```text
-使用 $guazi-page-delivery 根据需求文档生成一个订单详情页
+使用 $guazi-page-design 根据需求文档生成一个订单详情页
 ```
 
 ### 2. 根据 Figma 原型生成页面
 
 ```text
-使用 $guazi-page-delivery 根据这个 Figma 原型生成页面，并同步到 Figma
+使用 $guazi-page-design 根据这个 Figma 原型生成页面，并同步到 Figma
 ```
 
 ### 3. 根据 HTML 原型生成页面
 
 ```text
-使用 $guazi-page-delivery 根据这个原型 HTML 生成页面
+使用 $guazi-page-design 根据这个原型 HTML 生成页面
 ```
 
 ### 4. 只调用基础规范技能
@@ -144,7 +144,7 @@ openclaw/
 如果你打算在团队内共享这套技能，建议这样维护：
 
 - 规范更新时，优先更新 `guazi-design-style-guide`
-- 页面生成流程变化时，更新 `guazi-page-delivery`
+- 页面生成流程变化时，更新 `guazi-page-design`
 - 每次组件沉淀、页面类型补充、工作流调整后，更新 `CHANGELOG.md`
 - 用 Git 仓库做统一分发，避免本地版本分叉
 
@@ -154,9 +154,9 @@ openclaw/
 
 ```text
 1. 克隆仓库
-2. 把 skills/guazi-page-delivery 和 skills/guazi-design-style-guide 复制到 ~/.codex/skills/
+2. 把 skills/guazi-page-design 和 skills/guazi-design-style-guide 复制到 ~/.codex/skills/
 3. 重启 Codex
-4. 在会话里直接使用：使用 $guazi-page-delivery 根据需求文档生成页面
+4. 在会话里直接使用：使用 $guazi-page-design 根据需求文档生成页面
 ```
 
 ## 仓库地址

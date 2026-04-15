@@ -45,6 +45,16 @@ Two concrete detail scaffolds are especially useful:
 6. repeated suggestion or operation cards
 7. multi-action bottom tool bar
 
+### CRM / relationship detail
+
+1. fixed top navbar
+2. customer or merchant summary header
+3. current focus object card
+4. recent activity facts
+5. tabs with record counts
+6. follow-up or communication feed cards
+7. sticky bottom mixed action bar
+
 ## 3. Summary Card
 
 The first card should establish identity quickly.
@@ -65,6 +75,13 @@ Rules:
 
 For proof/detail pages, the first card may be a purely informational summary card with dense rows.
 For operational tool pages, the summary may be split between hero media, metric strip, and title/meta block.
+For CRM / relationship detail pages, the summary may be a light header block rather than a white card as long as it still establishes:
+
+- object name
+- object ID
+- key intent or status tags
+- one right-aligned business count or level cue
+- the currently focused car source or business object directly below
 
 ## 4. Section Order
 
@@ -84,6 +101,12 @@ If the detail content is split into peer sections such as `基本信息 / 材料
 - keep the tab bar directly attached to the switched content area
 - avoid tabs if a simple vertical section stack is clearer
 
+For CRM / relationship detail pages:
+
+- use tabs to split `待办事项 / 沟通记录 / 跟进历史` and similar peer domains
+- include counts in tab labels when they help prioritization
+- keep the active tab visually restrained: green text plus bottom track is preferred
+
 ## 5. Information Cards
 
 Use compact grouped cards.
@@ -95,7 +118,27 @@ Rules:
 - prefer two-column key-value layouts when fields are comparable
 - long-form content should be separated from dense metadata
 
-## 6. Status And Timeline Areas
+For CRM / relationship detail pages:
+
+- the focused object card may use a light neutral fill instead of a white standalone card
+- activity facts above the tabs should prefer one-row inline metrics separated by thin dividers
+- each record card should keep the status row, key message row, and action row stable in order
+
+## 6. Interaction Feed Cards
+
+Use when the detail page is centered on follow-up, negotiation, appointments, or communication history.
+
+Rules:
+
+- each card should represent one event, request, or upcoming task
+- place the event status on the left and the timestamp on the right in the first row
+- keep the core business sentence visually strongest in the second row
+- place secondary facts inline after the strong sentence when possible
+- align compact actions to the right in the last row
+- use `Button 按钮` in `extraSmall` size for dense card actions
+- only one action in the row should read as the primary next step
+
+## 7. Status And Timeline Areas
 
 Use when the record changes over time.
 
@@ -106,7 +149,7 @@ Rules:
 - do not force the user to infer status from color alone
 - if there is a next required action, place it close to the status area
 
-## 7. Evidence / Attachment Areas
+## 8. Evidence / Attachment Areas
 
 Use for screenshots, uploaded files, certificates, and downloadable materials.
 
@@ -120,7 +163,7 @@ Rules:
 For proof/detail pages, evidence often appears as row-based factual sections rather than thumbnail galleries.
 For operational tool pages, evidence may be richer and mixed with tabs or suggestion modules.
 
-## 8. Sticky Bottom Actions
+## 9. Sticky Bottom Actions
 
 Use when the page has a clear next step.
 
@@ -133,8 +176,14 @@ Rules:
 
 If the page is a proof/detail page, prefer a single strong bottom CTA.
 If the page is an operational tool page, a multi-action bottom bar may be appropriate, but only one action should read as primary.
+If the page is a CRM / relationship detail page, a mixed action bar is preferred:
 
-## 9. Common Detail-Page States
+- lightweight icon tools on the left for frequent helper actions such as `发消息 / 发报价 / 邀约看车`
+- a right-aligned button group for stronger actions such as `跟进反馈 / 打电话`
+- keep the strongest action at the far right
+- do not overcrowd the bar with more than three lightweight tools plus two right-side buttons
+
+## 10. Common Detail-Page States
 
 Detail pages should consider:
 
@@ -143,8 +192,11 @@ Detail pages should consider:
 - rejected or abnormal status
 - attachment missing
 - success after action
+- no pending tasks
+- no communication records
+- follow-up item expired or missed
 
-## 10. Figma Reuse Guidance
+## 11. Figma Reuse Guidance
 
 Prefer:
 
@@ -152,3 +204,4 @@ Prefer:
 - `Button 按钮`
 - `item/tag`
 - `Avatar 头像` when identity needs a person or merchant cue
+- `Tabs 选项卡` when the detail body switches between peer record domains
